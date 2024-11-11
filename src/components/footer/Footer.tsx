@@ -4,7 +4,8 @@ import { faFacebook, faLinkedin, faInstagram } from '@fortawesome/free-brands-sv
 
 function Footer() {
   return (
-    <div className='h-[200px] w-full bg-[#1ea297] flex justify-center items-center gap-5'>
+    <div className="flex bg-[#1ea297]">
+    <div className='h-[200px] w-full bg-[#1ea297] flex justify-evenly items-baseline gap-5'>
       <div className='flex flex-col justify-center items-center'>
         <WordPullUp
           className="text-2xl font-bold tracking-[-0.02em] font-philosopher text-[#ffffff] md:text-4xl md:leading-[5rem]"
@@ -21,9 +22,16 @@ function Footer() {
             <FontAwesomeIcon icon={faInstagram} className="text-[#ffffff] text-2xl rounded-full hover:text-pink-500" />
           </a>
         </div>
+        {/* <div className="flex items-end justify-end">
+          <img className="h-32 " src=".\images\Signarure.png" alt="" />
+        </div> */}
       </div>
+      
     </div>
-    
+    {/* <div className=" ">
+        <img className="h-72 w-64  object-cover" src=".\images\Santanu.png" alt="" />
+      </div> */}
+    </div>
   )
 }
 

@@ -93,8 +93,7 @@ function Team() {
                                 <img className="sm:h-6 h-3" src="./images/linkedin.png" alt="LinkedIn" />
                             </a>
                         </div>
-                    </div>
-                    
+                    </div>  
                 </div>
             </div>
         </>

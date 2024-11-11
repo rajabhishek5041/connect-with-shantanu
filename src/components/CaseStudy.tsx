@@ -27,8 +27,7 @@ function CaseStudy() {
                             </a>
                         </div>
                     </div>
-                
-            </div>
+             </div>
         </div>
     </div>
   )
